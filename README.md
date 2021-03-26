@@ -10,7 +10,7 @@ Convex decomposition approach for collision check on non-convex objects in MuJoC
 
 ## Prerequisites
    ### Install the V-HACD library for convex decomposition on the meshes.
-  1. Clone this Github repository
+  1. Clone [this Github repository](https://github.com/kmammou/v-hacd.git)
   2. Rebuild the binaries: running ```python run.py --cmake``` in the install directory, and then running make in the created build/linux directory
   3. Copy the Python script in ```v-hacd/add-ons/blender/object_vhacd.py``` to your Blender addons directory.  For Blender 2.78 this directory will be ```"Blender Foundation/Blender/2.78/scripts/addons/"```.  You're at the right place if you see other scripts prefixed with object\_.
   4. The addon must be enabled before use.  After copying the script to the addons directory, open Blender and navigate to File > User Preferences > Add-ons.  Object: V-HACD will be featured on the list.  Check its mark to enable the addon and save user settings.
